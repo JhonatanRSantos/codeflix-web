@@ -1,0 +1,7 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lint-all
+        name: Lint all files
+        entry: make lint-all
+        language: system
